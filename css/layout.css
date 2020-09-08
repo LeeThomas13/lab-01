@@ -16,7 +16,7 @@ body {
   }
   @media only screen and (min-width: 960px) {
     div {
-      background-color: rgb(51, 51, 116);
+      background-color: #dd42f5;
     }
     main {
       width: 960px;
