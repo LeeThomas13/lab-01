@@ -1,82 +1,100 @@
 #a {
     width: 480px;
     height: 75px;
+    background-color: #1F0318;
   }
   #b {
     width: 480px;
     height: 150px;
+    background-color: #827B71;
   }
   #c {
     width: 480px;
     height: 125px;
+    background-color: #B4B79D;
   }
   #d {
     width: 480px;
     height: 125px;
+    background-color: #E5F2C9;
   }
   #e {
     width: 240px;
     height: 250px;
     float: left;
+    background-color: #B2A38A;
   }
   #f {
     width: 240px;
     height: 250px;
+    background-color: #7F534B;
   }
   #g {
     width: 240px;
     height: 250px;
     float: left;
+    background-color: #866255;
   }
   #h {
     width: 240px;
     height: 250px;
+    background-color: #89695A;
   }
   #i {
     width: 480px;
     height: 80px;
+    background-color: #8C705F;
   }
   @media only screen and (min-width: 960px) {
     #a {
       width: 960px;
       height: 100px;
+      background-color: #71F79F;
     }
     #b {
       width: 200px;
       height: 600px;
       float: left;
+      background-color: #3DD6D0;
     }
     #c {
       width: 380px;
       height: 200px;
       float: left;
+      background-color: #15B097;
     }
     #d {
       width: 380px;
       height: 200px;
+      background-color: #513C2C;
     }
     #e {
       width: 190px;
       height: 250px;
       float: left;
+      background-color: #28190E;
     }
     #f {
       width: 190px;
       height: 250px;
       float: left;
+      background-color: #E55934;
     }
     #g {
       width: 190px;
       height: 250px;
       float: left;
+      background-color: #D9594C;
     }
     #h {
       width: 190px;
       height: 250px;
       float: left;
+      background-color: #CE8D66;
     }
     #i {
       width: 760px;
       height: 150px;
+      background-color: #605B56;
     }
   }
