@@ -1,100 +1,172 @@
 #a {
-    width: 480px;
-    height: 75px;
-    background-color: #1F0318;
+  background-color: #4d0b3c;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 75px;
+}
+
+#b {
+  background-color: #827B71;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 150px;
+}
+
+#c {
+  background-color: #B4B79D;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 125px;
+}
+
+#d {
+  background-color: #E5F2C9;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 125px;
+}
+
+#e {
+  background-color: #B2A38A;
+  height: 250px;
+}
+
+#f {
+  background-color: #7F534B;
+  height: 250px;
+}
+
+#g {
+  background-color: #866255;
+  height: 250px;
+}
+
+#h {
+  background-color: #89695A;
+  height: 250px;
+}
+
+#i {
+  background-color: #8C705F;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 80px;
+}
+
+div {
+  text-align: center;
+}
+
+@media only screen and (min-width: 760px) {
+  #a {
+    height: 100px;
+    background-color: #71F79F;
+    grid-column-start: 1;
+    grid-column-end: 96;
   }
   #b {
-    width: 480px;
-    height: 150px;
-    background-color: #827B71;
+    height: 600px;
+    background-color: #3DD6D0;
+    grid-column-start: 1;
+    grid-column-end: 20;
   }
   #c {
-    width: 480px;
-    height: 125px;
-    background-color: #B4B79D;
+    height: 200px;
+    background-color: #15B097;
+    grid-column-start: 20;
+    grid-column-end: 58;
   }
   #d {
-    width: 480px;
-    height: 125px;
-    background-color: #E5F2C9;
+    height: 200px;
+    background-color: #513C2C;
+    grid-column-start: 58;
+    grid-column-end: 96;
   }
   #e {
-    width: 240px;
     height: 250px;
-    float: left;
-    background-color: #B2A38A;
+    background-color: #28190E;
+    grid-column-start: 20;
+    grid-column-end: 39;
   }
   #f {
-    width: 240px;
     height: 250px;
-    background-color: #7F534B;
+    background-color: #E55934;
+    grid-column-start: 39;
+    grid-column-end: 58;
   }
   #g {
-    width: 240px;
     height: 250px;
-    float: left;
-    background-color: #866255;
+    background-color: #D9594C;
+    grid-column-start: 58;
+    grid-column-end: 77;
   }
   #h {
-    width: 240px;
     height: 250px;
-    background-color: #89695A;
+    background-color: #CE8D66;
+    grid-column-start: 77;
+    grid-column-end: 96;
   }
   #i {
-    width: 480px;
-    height: 80px;
-    background-color: #8C705F;
+    height: 150px;
+    background-color: #605B56;
+    grid-column-start: 20;
+    grid-column-end: 96;
   }
-  @media only screen and (min-width: 960px) {
-    #a {
-      width: 960px;
-      height: 100px;
-      background-color: #71F79F;
-    }
-    #b {
-      width: 200px;
-      height: 600px;
-      float: left;
-      background-color: #3DD6D0;
-    }
-    #c {
-      width: 380px;
-      height: 200px;
-      float: left;
-      background-color: #15B097;
-    }
-    #d {
-      width: 380px;
-      height: 200px;
-      background-color: #513C2C;
-    }
-    #e {
-      width: 190px;
-      height: 250px;
-      float: left;
-      background-color: #28190E;
-    }
-    #f {
-      width: 190px;
-      height: 250px;
-      float: left;
-      background-color: #E55934;
-    }
-    #g {
-      width: 190px;
-      height: 250px;
-      float: left;
-      background-color: #D9594C;
-    }
-    #h {
-      width: 190px;
-      height: 250px;
-      float: left;
-      background-color: #CE8D66;
-    }
-    #i {
-      width: 760px;
-      height: 150px;
-      background-color: #605B56;
-    }
+}
+
+@media only screen and (min-width: 1366px) {
+  #a {
+    height: 300px;
+    background-color: #D0E37F;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
+  #b {
+    height: 200px;
+    background-color: #D7CE73;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #c {
+    height: 200px;
+    background-color: #DDB967;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  #d {
+    height: 300px;
+    background-color: #D78D52;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #e {
+    height: 200px;
+    background-color: #D1603D;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #f {
+    height: 200px;
+    background-color: #904C31;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  #g {
+    height: 300px;
+    background-color: #4F3824;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #h {
+    height: 200px;
+    background-color: #392B24;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #i {
+    height: 200px;
+    background-color: #2E2424;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}

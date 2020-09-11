@@ -1,24 +1,24 @@
-body {
-    width: 480px;
-    margin: auto;
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+header {
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 760px) {
+  #grid-container {
+    display: grid;
+    grid-template-columns: repeat(96, auto);
+    grid-template-rows: 100px 200px 250px 150px;
   }
-  div {
-    box-sizing: border-box;
-    border: 1px solid black;
-    display: flex;
-    background-color: rgb(205, 201, 201);
-    justify-content: center;
-    align-items: center;
+}
+
+@media only screen and (min-width: 1366px) {
+  #grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px 200px 300px 200px 300px 200px
   }
-  header {
-    display: flex;
-    margin-top: 50px;
-  }
-  @media only screen and (min-width: 960px) {
-    div {
-      background-color: #dd42f5;
-    }
-    main {
-      width: 960px;
-    }
-  }
+}
